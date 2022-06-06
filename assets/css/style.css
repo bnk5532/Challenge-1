@@ -19,7 +19,7 @@ body {
     display: inline-block;
     font-size: 48px;
 }
-
+/* removed header element for .seo, nav, ul, li to make code cleaner */
 .seo {
     color: #d9dcd6;
 }
@@ -86,22 +86,13 @@ p {
     background-color: #2589bd;
 }
 
+/* combined benefits articles for same margin/color to make code more streamlined */
 .benefits article {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
-.benefit-lead h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
+/*combined benefit h3 as specs were the same */
+.benefit h3 {
     margin-bottom: 10px;
     text-align: center;
 }
