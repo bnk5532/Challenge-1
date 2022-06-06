@@ -130,7 +130,11 @@ p {
     color: #ffffff;
 }
 
-.search-engine-optimization img {
+img {
+    max-height: 200px;
+}
+
+/* .search-engine-optimization img {
     max-height: 200px;
 }
 
@@ -140,7 +144,7 @@ p {
 
 .social-media-marketing img {
     max-height: 200px;
-}
+} */
 
 /* streamlined h2 specs to make coding more efficient */
 h2 {
