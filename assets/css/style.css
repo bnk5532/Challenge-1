@@ -97,7 +97,25 @@ p {
     text-align: center;
 }
 /*combined benefit img as specs were the same */
-.benefit img {
+/* .benefit img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+} */
+
+.benefit-lead img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.benefit-brand img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
@@ -142,17 +160,8 @@ p {
     max-height: 200px;
 }
 
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
+/* streamline h2 specs to make coding more efficient */
+h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
