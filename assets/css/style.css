@@ -97,25 +97,7 @@ p {
     text-align: center;
 }
 /*combined benefit img as specs were the same */
-/* .benefit img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-} */
-
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
+.benefits img{
     display: block;
     margin: 10px auto;
     max-width: 150px;
@@ -160,7 +142,7 @@ p {
     max-height: 200px;
 }
 
-/* streamline h2 specs to make coding more efficient */
+/* streamlined h2 specs to make coding more efficient */
 h2 {
     margin-bottom: 20px;
     font-size: 36px;
